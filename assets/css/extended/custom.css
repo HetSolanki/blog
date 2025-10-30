@@ -1,0 +1,201 @@
+/* Custom Homepage Styles */
+.custom-home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.custom-home-page .page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.custom-home-page .page-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--primary);
+}
+
+/* Post List */
+.custom-home-page .post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* Post Entry Card */
+.custom-home-page .post-entry {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1.5rem;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    max-height: 200px;
+}
+
+.custom-home-page .post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--tertiary);
+}
+
+/* Cover Image */
+.custom-home-page .post-cover {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.custom-home-page .post-cover a {
+    display: block;
+    height: 100%;
+}
+
+.custom-home-page .post-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.custom-home-page .post-entry:hover .post-cover img {
+    transform: scale(1.05);
+}
+
+/* Post Content */
+.custom-home-page .post-content {
+    padding: 1.25rem 1.5rem 1.25rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-home-page .entry-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+}
+
+.custom-home-page .entry-header h2 a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.custom-home-page .entry-header h2 a:hover {
+    color: var(--tertiary);
+}
+
+/* Meta Information */
+.custom-home-page .entry-meta {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--secondary);
+    margin-bottom: 0.75rem;
+    align-items: center;
+}
+
+.custom-home-page .entry-meta span:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: var(--secondary);
+    border-radius: 50%;
+    margin-left: 0.75rem;
+    vertical-align: middle;
+}
+
+/* Entry Content */
+.custom-home-page .entry-content {
+    color: var(--content);
+    line-height: 1.6;
+    font-size: 0.95rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.custom-home-page .entry-content p {
+    margin: 0;
+}
+
+/* Pagination */
+.custom-home-page .page-footer {
+    margin-top: 3rem;
+}
+
+.custom-home-page .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.custom-home-page .pagination a {
+    padding: 0.75rem 1.5rem;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.custom-home-page .pagination a:hover {
+    background: var(--tertiary);
+    color: var(--theme);
+    border-color: var(--tertiary);
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-home-page .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .custom-home-page .post-entry {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .custom-home-page .post-cover {
+        min-height: 200px;
+    }
+
+    .custom-home-page .post-content {
+        padding: 1.5rem;
+    }
+
+    .custom-home-page .entry-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-home-page {
+        padding: 1rem 0.5rem;
+    }
+
+    .custom-home-page .page-header h1 {
+        font-size: 1.75rem;
+    }
+
+    .custom-home-page .post-list {
+        gap: 1.5rem;
+    }
+}

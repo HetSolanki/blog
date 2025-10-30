@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="post-list">
+    {{ range .Paginator.Pages }}
+    <a href="{{ .RelPermalink }}" class="post-card">
+        {{ with .Params.cover.image }}
+        <div class="post-image">
+            <img src="{{ . }}" alt="{{ $.Params.cover.alt }}" loading="lazy">
+        </div>
+        {{ end }}
+        <div class="post-content">
+            <h2>{{ .Title }}</h2>
+            <p class="post-meta">{{ .Date.Format "Jan 02, 2006" }} by {{ .Params.author }}</p>
+            <p class="post-summary">{{ .Description | default .Summary }}</p>
+        </div>
+    </a>
+    {{ end }}
+</section>
+{{ end }}

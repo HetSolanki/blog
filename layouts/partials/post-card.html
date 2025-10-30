@@ -1,0 +1,28 @@
+<article class="post-card">
+    {{- if .Params.cover.image }}
+    <a href="{{ .Permalink }}" class="post-card-image">
+        <img src="{{ .Params.cover.image }}" alt="{{ .Title }}" loading="lazy" />
+    </a>
+    {{- end }}
+
+    <div class="post-card-content">
+        <h2 class="post-card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+
+        <div class="post-card-meta">
+            <time datetime="{{ .Date.Format " 2006-01-02" }}">
+                {{ .Date.Format "Jan 02, 2006" }}
+            </time>
+            {{- if .Params.author }}
+            <span class="post-card-author">by {{ .Params.author }}</span>
+            {{- end }}
+        </div>
+
+        <div class="post-card-excerpt">
+            {{ .Summary }}
+        </div>
+
+        <a href="{{ .Permalink }}" class="post-card-readmore">Read more →</a>
+    </div>
+</article>

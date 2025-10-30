@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Het Solanki</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Het Solanki</description>
-    <generator>Hugo</generator>
-    <language>en</language>
+    <title>Tags on Het&#39;s Blog</title>
+    <link>https://yoursite.com/tags/</link>
+    <description>Recent content in Tags on Het&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 18:45:00 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yoursite.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nature</title>
-      <link>http://localhost:1313/tags/nature/</link>
+      <link>https://yoursite.com/tags/nature/</link>
       <pubDate>Thu, 30 Oct 2025 18:45:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/nature/</guid>
+      <guid>https://yoursite.com/tags/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>Peace</title>
-      <link>http://localhost:1313/tags/peace/</link>
+      <link>https://yoursite.com/tags/peace/</link>
       <pubDate>Thu, 30 Oct 2025 18:45:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/peace/</guid>
+      <guid>https://yoursite.com/tags/peace/</guid>
       <description></description>
     </item>
     <item>
       <title>Reflection</title>
-      <link>http://localhost:1313/tags/reflection/</link>
+      <link>https://yoursite.com/tags/reflection/</link>
       <pubDate>Thu, 30 Oct 2025 18:45:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/reflection/</guid>
+      <guid>https://yoursite.com/tags/reflection/</guid>
       <description></description>
     </item>
     <item>
       <title>Sunset</title>
-      <link>http://localhost:1313/tags/sunset/</link>
+      <link>https://yoursite.com/tags/sunset/</link>
       <pubDate>Thu, 30 Oct 2025 18:45:00 +0530</pubDate>
-      <guid>http://localhost:1313/tags/sunset/</guid>
+      <guid>https://yoursite.com/tags/sunset/</guid>
       <description></description>
     </item>
   </channel>

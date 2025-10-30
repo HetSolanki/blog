@@ -1,6 +1,51 @@
-theme = "ananke"
-title = "Het Solanki"
-baseURL = "https://example.com/"
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+baseURL = "https://yoursite.com/"
+languageCode = "en-us"
+title = "Het's Blog"
+theme = "PaperMod"
+
+# Number of posts per page
+pagination.pagerSize = 6
+
+[params]
+  env = "production"
+  description = "Het Solanki's personal blog"
+  author = "Het Solanki"
+  
+  # Disable default PaperMod home features
+  [params.homeInfoParams]
+    Title = ""
+    Content = ""
+  
+  # Show features on post pages
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  # Cover images
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

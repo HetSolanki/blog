@@ -1,0 +1,53 @@
+{{ define "main" }}
+<main class="main custom-home-page">
+    <header class="page-header">
+        <h1>Het's Blog</h1>
+    </header>
+
+    <div class="post-list">
+        {{ range (.Paginate .Site.RegularPages).Pages }}
+        <article class="post-entry">
+            {{ if .Params.cover.image }}
+            <figure class="post-cover">
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.cover.image }}" alt="{{ .Title }}" />
+                </a>
+            </figure>
+            {{ end }}
+
+            <div class="post-content">
+                <header class="entry-header">
+                    <h2>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
+                </header>
+
+                <div class="entry-meta">
+                    <span>{{ .Date.Format "Jan 02, 2006" }}</span>
+                    {{ if .Params.author }}
+                    <span>by {{ .Params.author }}</span>
+                    {{ end }}
+                </div>
+
+                <div class="entry-content">
+                    <p>{{ .Summary }}</p>
+                </div>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+
+    {{ if gt .Paginator.TotalPages 1 }}
+    <footer class="page-footer">
+        <nav class="pagination">
+            {{ if .Paginator.HasPrev }}
+            <a class="prev" href="{{ .Paginator.Prev.URL }}">« Previous</a>
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+            <a class="next" href="{{ .Paginator.Next.URL }}">Next »</a>
+            {{ end }}
+        </nav>
+    </footer>
+    {{ end }}
+</main>
+{{ end }}

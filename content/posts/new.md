@@ -6,7 +6,11 @@ description: "A quiet reflection on the beauty of sunsets and the poetry hidden 
 tags: ["sunset", "nature", "peace", "reflection"]
 categories: ["Nature Diaries"]
 author: "Het Solanki"
-featured_image: "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1600&q=80"
+cover:
+  image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+  alt: "Sunset over the hills"
+  caption: "Golden hour serenity"
+  relative: false
 ---
 
 ![Golden Sunset](https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1600&q=80)

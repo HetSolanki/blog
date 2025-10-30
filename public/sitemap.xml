@@ -2,37 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-30T21:30:20+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2025-10-30T21:30:20+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-30T21:30:20+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://yoursite.com/categories/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nature/</loc>
+    <loc>https://yoursite.com/tags/nature/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/nature-diaries/</loc>
+    <loc>https://yoursite.com/categories/nature-diaries/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/peace/</loc>
+    <loc>https://yoursite.com/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reflection/</loc>
+    <loc>https://yoursite.com/tags/peace/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sunset/</loc>
+    <loc>https://yoursite.com/posts/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://yoursite.com/tags/reflection/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/new/</loc>
+    <loc>https://yoursite.com/tags/sunset/</loc>
+    <lastmod>2025-10-30T18:45:00+05:30</lastmod>
+  </url><url>
+    <loc>https://yoursite.com/tags/</loc>
+    <lastmod>2025-10-30T18:45:00+05:30</lastmod>
+  </url><url>
+    <loc>https://yoursite.com/posts/new/</loc>
     <lastmod>2025-10-30T18:45:00+05:30</lastmod>
   </url>
 </urlset>
