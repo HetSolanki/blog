@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Het Solanki</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Het Solanki</description>
+    <title>Sunset on Het Solanki</title>
+    <link>http://localhost:1313/tags/sunset/</link>
+    <description>Recent content in Sunset on Het Solanki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Oct 2025 21:30:20 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Thu, 30 Oct 2025 21:30:20 +0530</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 30 Oct 2025 18:45:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sunset/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Whispers of the Sunset</title>
       <link>http://localhost:1313/posts/new/</link>

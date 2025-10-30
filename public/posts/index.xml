@@ -16,11 +16,11 @@
       <description></description>
     </item>
     <item>
-      <title>My Post</title>
+      <title>Whispers of the Sunset</title>
       <link>http://localhost:1313/posts/new/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Oct 2025 18:45:00 +0530</pubDate>
       <guid>http://localhost:1313/posts/new/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&amp;amp;fit=crop&amp;amp;w=1600&amp;amp;q=80&#34; alt=&#34;Golden Sunset&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sun was melting into the horizon, painting the sky in soft shades of amber and rose.&lt;br&gt;&#xA;A cool breeze carried the scent of wet earth — gentle, familiar, grounding. The day’s noise softened into a whisper as the world began to exhale.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&amp;amp;fit=crop&amp;amp;w=1600&amp;amp;q=80&#34; alt=&#34;Nature Glow&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Somewhere beyond the hills, the last golden light touched the leaves, turning every edge into liquid gold. The sky — once a deep blue — now glowed in layers of orange and violet, as if nature itself was lost in thought.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
